@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 12,
+        "pack_format": 16,
+		"supported_formats": { "min_inclusive": 16, "max_inclusive": 48},
     "description": "§6pack.string_names"
   }
 }
