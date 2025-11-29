@@ -1,7 +1,10 @@
 {
-  "pack": {
-        "pack_format": 16,
-		"supported_formats": { "min_inclusive": 16, "max_inclusive": 48},
-    "description": "§6pack.string_names"
-  }
+    "pack": {
+    "description": "§6pack.string_names",
+	"pack_format": 15,
+	"supported_formats": {"min_inclusive": 15, "max_inclusive": 64},
+    "min_format": 15,
+
+    "max_format": 75
+    }
 }
