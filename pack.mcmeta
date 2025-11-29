@@ -1,6 +1,6 @@
 {
     "pack": {
-    "description": "§6pack.string_names",
+    "description": [{"color":"gold","text":"pack.string_names"}],
 	"pack_format": 15,
 	"supported_formats": {"min_inclusive": 15, "max_inclusive": 64},
     "min_format": 15,
