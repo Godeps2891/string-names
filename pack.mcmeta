@@ -1,10 +1,23 @@
 {
-    "pack": {
-    "description": [{"color":"gold","text":"pack.string_names"}],
-	"pack_format": 15,
-	"supported_formats": {"min_inclusive": 15, "max_inclusive": 64},
+  "pack": {
+    "description": [
+      {
+        "color": "gold",
+        "text": "pack.string_names",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Rename items to match their ID\nExample: [minecraft:experience_bottle] \"Bottle o' Enchanting\" -> \"Experience Bottle\"\n\nOnly affects American English/en_us"
+          }
+        }
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 64
+    },
     "min_format": 15,
-
-    "max_format": 75
-    }
+    "max_format": 999
+  }
 }
